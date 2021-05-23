@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - rumor
+  - Hit
+  - diary
+  - key
+  - Enemy
+  - Enemy_1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Boss
+  - Platform
+  - Player
+  - PlayerDamaged
+  - Enemy
+  - Enemy_1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Background
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: First Forward(Item_else)
+    uniqueID: 4217795
+    locked: 0
+  - name: Second Forward(Monster_Spawned)
+    uniqueID: 3965067559
+    locked: 0
+  - name: Third Forward(Player)
+    uniqueID: 16069505
+    locked: 0
+  - name: Fourth Forward(Monster_Main)
+    uniqueID: 4248951053
+    locked: 0
+  - name: Fifth Forward(empty)
+    uniqueID: 395579185
+    locked: 0
+  - name: Final Forward(Background)
+    uniqueID: 821312359
+    locked: 0
