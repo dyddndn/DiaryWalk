@@ -31,10 +31,10 @@ public class box : MonoBehaviour {
         for(int i=0;i<10;i++) {
             if(boxitems[i]!=null){
                 GameObject.Find("Player").GetComponent<Inventory>().inventoryadd(boxitems[i]);
-                if(boxitems[i].name.Contains("key")) {
+                if(boxitems[i].name.Contains("열쇠")) {
                     keycounter();
                     Button.instance.ChangeImageToKey(scoremanager.instance.getitemcounter()-1);
-                }else if(boxitems[i].name.Contains("diary")) {
+                }else if(boxitems[i].name.Contains("다이어리")) {
                     keycounter();
                     Button.instance.ChangeImageToDiary(scoremanager.instance.getitemcounter()-1);
                 }
@@ -64,7 +64,7 @@ public class box : MonoBehaviour {
 		GameObject.Find("MainCamera").GetComponent<scoremanager>().setitemcounter();
 	}
     void keyGUI() {
-		GameObject.Find("MainCamera").GetComponent<scoremanager>().changecontentskeyget("상자에서 물품을");
+		GameObject.Find("MainCamera").GetComponent<scoremanager>().changecontentskeyget("상자에서 물품(을)");
         GameObject.Find("MainCamera").GetComponent<scoremanager>().setmessageAlpha(2);
 	}
     void keyactive() {

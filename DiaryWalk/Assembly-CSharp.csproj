@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\HPbar.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\itemdescription.cs" />
      <Compile Include="Assets\Scripts\key.cs" />
      <Compile Include="Assets\Scripts\keydiaryscore.cs" />
      <Compile Include="Assets\Scripts\moveing.cs" />
